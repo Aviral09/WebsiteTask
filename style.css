@@ -251,13 +251,14 @@ header {
     }
 
     .nav-link {
-        padding: 0.5rem;
+        padding: 0.25rem;
         font-size: 1rem;
     }
 
     #header-img img{
         height: 30px;
         width: 30px;
+        margin-left: 20px;
     }
     
     .content h5{
@@ -276,9 +277,16 @@ header {
         font-size: 1rem;
     }
 
-    #video video {
-        height: 60vh;
+    #video {
+        height: 80vh;
         width: 38vw;
+        overflow: hidden;
+        transform: translate(10%,0%);
+    }
+
+    #video video {
+        height: 80vh;
+        width: 50vw;
         margin-left: 0;
     }
 
